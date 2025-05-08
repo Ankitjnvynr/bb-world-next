@@ -4,7 +4,7 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export function LogIN() {
   return (
