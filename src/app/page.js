@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar3 from "@/components/Navbar3";
 import Footer from "@/components/ui/Footer";
 import AboutData from "@/components/ui/AboutData";
@@ -13,6 +15,7 @@ import { testimonials } from "@/components/ui/testimonials";
 import VisitUs from "@/components/ui/VisitUs";
 import Image from "next/image";
 import { ToastContainer } from "react-toastify";
+import Client from "@/components/ui/ClientsScroller";
 
 export default function Home() {
   return (
@@ -34,8 +37,9 @@ export default function Home() {
               <HoverEffect items={items} className="" />
       <ContactUs />
       <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
+      <Client/>
       <VisitUs />
-        <Footer />
+      <Footer/>
     </>
   );
 }

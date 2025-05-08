@@ -1,4 +1,7 @@
-import React from 'react';
+"use client";
+
+
+import { useState,useEffect } from 'react';
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter, FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -6,6 +9,14 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
+  const [currentYear,setCurrentYear]= useState()
+  useEffect(()=>{
+    const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+console.log(currentYear);
+setCurrentYear(currentYear)
+  },[])
+
   return (
     <div className="bg-[#EFF6FF] w-full">
       {/* Top Section */}
@@ -96,7 +107,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="bg-cyan-900 text-white text-center py-3 text-sm">
-        © 2022 Big Byte Innovations Pvt. Ltd. All Rights Reserved
+        © {currentYear} Big Byte Innovations Pvt. Ltd. All Rights Reserved
       </div>
     </div>
   );
