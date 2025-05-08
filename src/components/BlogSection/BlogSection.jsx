@@ -37,7 +37,7 @@ const blogs = [
 const BlogSection = () => {
   return (
     <section className="py-16 bg-gradient-to-b from-white to-blue-50 px-4 md:px-8 lg:px-16 xl:px-24">
-      <h2 className="text-3xl md:text-5xl font-extrabold text-blue-950 text-center  mt-14 mb-10 animate-fade-in-up">
+      <h2 className="text-3xl md:text-5xl font-base text-blue-950 text-center  mt-14 mb-10 animate-fade-in-up">
         Latest Insights
       </h2>
 
@@ -59,7 +59,7 @@ const BlogSection = () => {
                 <FaRegCalendarAlt className="text-blue-600" />
                 <span>{blog.date}</span>
               </div>
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-all duration-300">
+              <h3 className="text-lg md:text-xl font-base text-gray-900 group-hover:text-blue-600 transition-all duration-300">
                 {blog.title}
               </h3>
             </div>

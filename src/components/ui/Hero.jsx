@@ -11,7 +11,7 @@ const Hero = () => {
      <div className="heading ml-8 mt-72  ">
         <div className='flex '>
         <p className='font-extrabold text-7xl p-3'>BigByte World </p>
-        <img src="/gifs/Globe_ Animation.gif" alt="" className='w-10 h-10 mt-11' />
+        <img src="public/gifs/Globe_ Animation.gif" alt="" className='w-10 h-10 mt-11' />
         </div>
         <div className="sub_heading mt-4">
             <p className='font-bold text-3xl ml-4 '>Delivering Quality Software Products and Premium IT Services Since 2013</p>
@@ -21,10 +21,10 @@ const Hero = () => {
         
         </div>
         <div className="right_side_container bg-[#0a243a] right w-[60vh] h-[100vh] relative ">
-            {/* <img src="/images/about/big_byte_innovations_cover.jpg" alt="" /> */}
+            {/* <img src="public/images/about/big_byte_innovations_cover.jpg" alt="" /> */}
         <div className="absolute top-40 left-[-30px] w-[25vw] h-[60vh] bg-white shadow-lg rounded-tr-[100px] rounded-br-[100px]">
           <img
-            src="/images/about/big_byte_innovations_cover.jpg"
+            src="public/images/about/big_byte_innovations_cover.jpg"
             alt="Preview"
             className="w-full h-full object-cover rounded-tr-[100px] rounded-br-[100px] p-2"
           />

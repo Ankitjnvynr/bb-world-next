@@ -24,7 +24,7 @@ const ServicesOffer = () => {
     <>
     <div className='mt-10 '>
         
-        <p className='text-3xl font-bold text-[#0a243a] bg-blue-100 px-2 py-1 mx-5' >Take a look at a Services we offer</p>
+        <p className='text-3xl font-medium text-[#0a243a] bg-blue-100 px-2 py-1 mx-5' >Take a look at a Services we offer</p>
        
     </div>
     <div className="p-6 s:p-10 bg-white">
@@ -32,7 +32,7 @@ const ServicesOffer = () => {
         {/* Left Highlighted Box */}
         <div className="bg-blue-100 p-6 flex flex-col justify-center rounded-md shadow-md">
           <p className="text-sm text-orange-600 font-bold">SERVICES WE OFFER</p>
-          <h2 className="text-2xl font-bold mt-2">Take a look at a Services we offer</h2>
+          <h2 className="text-2xl font-base mt-2">Take a look at a Services we offer</h2>
         </div>
 
         {/* Services Boxes */}

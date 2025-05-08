@@ -17,8 +17,8 @@ const AboutCompany = () => {
       <div>
       <div className="flex xl:flex-row xl:gap-3 justify-between relative xs:flex-col xs:gap-10 s:gap-32 ">
         <div className=" xl:max-w-[53rem] xs:max-w-[100%] ">
-        <h1 className="text-7xl font-bold mt-12 ml-[65px] xs:ml-0 xs:px-7">ABOUT <span className="text-blue-950">US</span></h1>
-        <p className="text-xl font-medium mt-5 px-16 xs:px-7">Big Byte Innovations Pvt Ltd (BIPL) is India's leading IT and Software company. 
+        <h1 className="text-4xl font-bold mt-12 ml-[65px] xs:ml-0 xs:px-7">ABOUT <span className="text-blue-950">US</span></h1>
+        <p className="text-base font-normal text-gray-800 mt-5 px-16 xs:px-7">Big Byte Innovations Pvt Ltd (BIPL) is India's leading IT and Software company. 
             It has a registered office in New Delhi, India, and an office in Kurukshetra,
              Haryana. The company started way back in 2013 as the brainchild of two management
              graduates aiming to combine innovation with ever-growing technology.

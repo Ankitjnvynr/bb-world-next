@@ -56,9 +56,9 @@ const  Data = () => {
   return (
     <>
     <div className='mt-10 '>
-        <p className='text-xl font-bold text-[#0a243a] px-2 py-1 mx-5'>HIRE SEO EXPERTS FOR GROWTH</p>
-        <p className='text-3xl font-bold text-[#0a243a] bg-blue-100 px-2 py-1 mx-5' >Grow Your Online Presence With Big Byte</p>
-        <p className='text-lg mt-4 font-medium px-8 '>Everyone wants their website to be on the first page of Google? Search Engine Optimisation can do it for you. Every business must maintain its online presence to flourish in the market in this age of high competition and growing technology. All a brand needs is to present at the right place at the right time. Search Engine Optimisation improves the visibility of a website organically on the search engine by incorporating search engine friendly elements into a website.</p>
+        <p className='text-xl font-base text-[#0a243a] px-2 py-1 mx-5'>HIRE SEO EXPERTS FOR GROWTH</p>
+        <p className='text-3xl font-medium text-[#0a243a] bg-blue-100 px-2 py-1 mx-5' >Grow Your Online Presence With Big Byte</p>
+        <p className='text-lg mt-4 font-base px-8 '>Everyone wants their website to be on the first page of Google? Search Engine Optimisation can do it for you. Every business must maintain its online presence to flourish in the market in this age of high competition and growing technology. All a brand needs is to present at the right place at the right time. Search Engine Optimisation improves the visibility of a website organically on the search engine by incorporating search engine friendly elements into a website.</p>
     </div>
     <div className="text-start md:text-center lg:text-start mt-4 pl-8">
            <a href="contact-us"> <button className="bg-blue-950 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition-all duration-300">
@@ -67,9 +67,9 @@ const  Data = () => {
             </a>
           </div>
     <div className='mt-14 '>
-    <p className='text-xl font-bold text-[#0a243a] px-2 py-1 mx-5'>RANK YOUR WEBSITE ON TOP
+    <p className='text-xl font-base text-[#0a243a] px-2 py-1 mx-5'>RANK YOUR WEBSITE ON TOP
     </p>
-        <p className='text-3xl font-bold text-[#0a243a] px-2 bg-blue-100 mx-5' >SEO is essential in many ways</p>
+        <p className='text-3xl font-medium text-[#0a243a] px-2 bg-blue-100 mx-5' >SEO is essential in many ways</p>
         {/* <p className='text-lg mt-4 font-medium px-8'>BIPL follows an entirely different approach to building scalable, modern and secure e-commerce websites for the business. We implement innovative strategies to deliver customised eCommerce websites.</p> */}
     </div>
     <div className="relative flex flex-col items-center w-full max-w-6xl mx-auto py-10 ">

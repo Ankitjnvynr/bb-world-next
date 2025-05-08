@@ -5,9 +5,9 @@ const HowWeWork = () => {
     <>
       <div className="p-4 sm:p-8 md:p-14 bg-blue-50">
         <div className="headings text-center">
-          <h2 className="text-2xl sm:text-4xl font-semibold">HOW WE WORK</h2>
-          <h1 className="text-3xl sm:text-6xl font-bold">
-            How Assist your <span className="text-blue-950 font-sans">Business</span>
+          <h2 className="text-2xl sm:text-3xl font-base mb-3">HOW WE WORK</h2>
+          <h1 className="text-3xl sm:text-5xl ">
+            How Assist your <span className="text-blue-950 font-base"><strong>Business</strong></span>
           </h1>
         </div>
 
@@ -18,7 +18,7 @@ const HowWeWork = () => {
             <div className="absolute bg-white top-[6rem] left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center font-bold border-blue-950 border-l-2">
               1
             </div>
-            <p className="mt-20 text-2xl sm:text-3xl font-semibold text-blue-950">Ideas and Concepts</p>
+            <p className="mt-20 text-xl sm:text-3xl font-base text-blue-950">Ideas and Concepts</p>
           </div>
 
           {/* Card 2 */}
@@ -27,7 +27,7 @@ const HowWeWork = () => {
             <div className="absolute bg-white top-[6rem] left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center font-bold border-blue-950 border-l-2">
               2
             </div>
-            <p className="mt-20 text-2xl sm:text-3xl font-semibold text-blue-950">Discussion</p>
+            <p className="mt-20 text-xl sm:text-3xl font-base text-blue-950">Discussion</p>
           </div>
 
           {/* Card 3 */}
@@ -36,7 +36,7 @@ const HowWeWork = () => {
             <div className="absolute bg-white top-[6rem] left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center font-bold border-blue-950 border-l-2">
               3
             </div>
-            <p className="mt-20 text-2xl sm:text-3xl font-semibold text-blue-950">Development</p>
+            <p className="mt-20 text-xl sm:text-3xl font-base text-blue-950">Development</p>
           </div>
 
           {/* Card 4 */}
@@ -45,7 +45,7 @@ const HowWeWork = () => {
             <div className="absolute bg-white top-[6rem] left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center font-bold border-blue-950 border-l-2">
               4
             </div>
-            <p className="mt-20 text-2xl sm:text-3xl font-semibold text-blue-950">Testing and Trying</p>
+            <p className="mt-20 text-xl sm:text-3xl font-base text-blue-950">Testing and Trying</p>
           </div>
 
           {/* Card 5 */}
@@ -54,7 +54,7 @@ const HowWeWork = () => {
             <div className="absolute bg-white top-[6rem] left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center font-bold border-blue-950 border-l-2">
               5
             </div>
-            <p className="mt-20 text-2xl sm:text-3xl font-semibold text-blue-950">Execute and Install</p>
+            <p className="mt-20 text-xl sm:text-3xl font-base text-blue-950">Execute and Install</p>
           </div>
         </div>
       </div>

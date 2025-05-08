@@ -66,7 +66,7 @@ const ClientsScroller = () => {
 
   return (
     <div className="relative w-full py-10 bg-white text-center px-4 sm:px-8 md:px-16">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0a243a] mb-10">
+      <h2 className="text-base sm:text-4xl md:text-5xl  text-[#0a243a] mb-10">
         Our Clients
       </h2>
 

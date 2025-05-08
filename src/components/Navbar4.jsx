@@ -36,7 +36,7 @@ const Navbar4 = () => {
           {/* Logo Section */}
           <div className=" h-3  ">
             <img 
-              src="/images/logo/bigbyte-logo.png" 
+              src="public/images/logo/bigbyte-logo.png" 
               alt="Bigbyte logo" 
               className="bg-white h-6 w-28 transition-transform 
               duration-500 hover:scale-105 shadow-[0_0_30px_rgba(255,255,255,0.6)] rounded-lg 

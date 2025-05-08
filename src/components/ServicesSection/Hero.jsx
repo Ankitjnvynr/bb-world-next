@@ -6,16 +6,17 @@ const Hero = () => {
       {/* Hero Section */}
       <div className="relative">
         <img 
-          src="/images/hero/d2.jpeg" 
+          src="/images/hero/services-bg3.jpg" 
           alt="Hero Background" 
-          className="w-[100vw] h-[100vh] object-cover xs:w-full xs:h-[100vh]"
+          className="w-[100vw] h-[100vh] object-cover xs:w-full xs:h-[100vh] "
         />
+        <p className='absolute top-[45%] text-white text-[80px] font-serif left-28'>Innovative IT <span className='text-yellow-300 font-medium'>Services</span></p>
         <div className="absolute text-[#0a243a] font-bold transition-colors
           xl:text-7xl xl:top-72 xl:ml-16 xl:w-[40rem]
           md:top-[40%] md:text-6xl md:w-[35rem] md:ml-16
           tab:top-[40%] tab:text-7xl
           xs:top-[65%] xs:text-3xl xs:w-48 xs:ml-6">
-          Your Success, Our Service Mission
+         
         </div>
       </div>
 

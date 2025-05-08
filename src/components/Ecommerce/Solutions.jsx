@@ -80,7 +80,7 @@ const Solutions = () => {
   return (
     <>
      <div className='mt-0 '>
-        <p className='text-3xl font-bold text-[#0a243a] bg-[#c6e2ed] px-8 py-1 mx-5 xs:px-1' >
+        <p className='text-3xl font-medium  text-[#0a243a] bg-[#c6e2ed] px-8 py-1 mx-5 xs:px-1' >
         End-to-end managed eCommerce Solutions</p>
            </div>
     <div className="min-h-screen  flex xl:items-center  justify-center bg-white ">

@@ -15,7 +15,7 @@ const Services = () => {
     <section className="w-full bg-gradient-to-b from-[#f0f8ff] to-white py-14 px-4">
       {/* Heading */}
       <div className="max-w-4xl mx-auto text-center mb-12">
-        <h2 className="text-4xl sm:text-5xl font-bold text-[#0a243a] mb-4">
+        <h2 className="text-4xl sm:text-5xl font-medium text-[#0a243a] mb-4">
           Industries We Serve
         </h2>
         <p className="text-lg sm:text-xl text-gray-600">

@@ -86,7 +86,7 @@ const Services = () => {
   return (
     <>
      <div className='mt-0 '>
-        <p className='text-3xl font-bold text-[#0a243a] bg-blue-100 px-8 py-1 mx-5 xs:px-1' >
+        <p className='text-3xl font-medium text-[#0a243a] bg-blue-100 px-8 py-1 mx-5 xs:px-1' >
         Elite SEO Services at affordable rate</p>
            </div>
     <div className=" flex xl:items-center  justify-center bg-white ">

@@ -51,7 +51,7 @@ const Data = () => {
     <>
       {/* Header */}
       <div className="bg-white px-6 md:px-16 lg:px-24 py-12 space-y-6 text-gray-800">
-        <h2 className="text-2xl md:text-3xl font-bold text-blue-900 leading-snug">
+        <h2 className="text-2xl md:text-3xl font-medium text-blue-900 leading-snug">
           SMO is essential in multiple ways
         </h2>
         <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed">
@@ -78,7 +78,7 @@ const Data = () => {
 
             {/* Text Card */}
             <div className="bg-white shadow-lg p-5 rounded-md w-full max-w-md sm:max-w-lg">
-              <h3 className="text-lg font-bold text-[#0a243a] mb-2">{item.title}</h3>
+              <h3 className="text-lg font-medium text-[#0a243a] mb-2">{item.title}</h3>
               <p className="text-sm text-gray-600">{item.text}</p>
             </div>
           </div>

@@ -43,7 +43,7 @@ const steps = [
 const Services = () => {
   return (
     <section className="py-12 bg-white px-4 sm:px-8 lg:px-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-950 mb-10">
+      <h2 className="text-3xl md:text-4xl font-medium text-center text-blue-950 mb-10">
         Our Social Media Ad Services
       </h2>
       <div className="grid gap-8 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 max-w-7xl mx-auto">
@@ -57,7 +57,7 @@ const Services = () => {
               {step.icon}
             </div>
             {/* Title & Description */}
-            <h3 className="text-lg font-semibold text-blue-950 mb-2">{step.title}</h3>
+            <h3 className="text-lg font-medium text-blue-950 mb-2">{step.title}</h3>
             <p className="text-sm text-gray-600 leading-relaxed">{step.description}</p>
           </div>
         ))}

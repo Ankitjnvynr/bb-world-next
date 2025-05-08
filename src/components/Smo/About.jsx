@@ -7,10 +7,10 @@ const About = () => {
         
         {/* Text Content */}
         <div className="lg:w-1/2 space-y-6 text-gray-800">
-          <h4 className="text-sm font-semibold text-gray-500 uppercase">
+          <h4 className="text-sm font-base text-gray-500 uppercase">
             Affordable SMO Services
           </h4>
-          <h2 className="text-2xl md:text-3xl font-bold text-blue-900">
+          <h2 className="text-2xl md:text-3xl font-medium text-blue-900">
             Stay on Top with BigByte
           </h2>
           <p className="text-base md:text-lg leading-relaxed">

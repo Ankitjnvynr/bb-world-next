@@ -33,7 +33,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto space-y-20">
         {sections.map((section, idx) => (
           <div key={idx} className="space-y-6">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-blue-900 text-center lg:text-left">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-base text-blue-900 text-center lg:text-left">
               {section.title}
             </h2>
             {section.points.map((point, i) => (

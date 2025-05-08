@@ -41,7 +41,7 @@ const Technologies = () => {
      <div className="flex flex-col items-center px-4 mt-10 sm:px-6 md:px-10 bg-gray-100  font-sans py-4">
       <div className="text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-blue-700"></h1>
-        <h2 className="text-2xl sm:text-3xl font-bold text-blue-950 -mt-1">Our Web Development</h2>
+        <h2 className="text-2xl sm:text-3xl font-base text-blue-950 -mt-1">Our Web Development</h2>
         <p className="bg-blue-950 mt-4 px-4 py-2 text-xl text-white rounded shadow font-extrabold">
          Technologies
         </p>
@@ -58,7 +58,7 @@ const Technologies = () => {
         <img src={item.id} alt="" className="xs:w-[100%] xs:h-[100%] tab:w-[100%]  lg:w-[100%] w-20 h-20 flex items-center justify-center text-white text-lg font-bold bg-transparent rounded-full shadow " />
       </div>
       <div className="text-gray-800 lg:px-5 xs:px-3">
-        <p className="font-semibold text-base lg:text-xl">{item.title}</p>
+        <p className="font-base text-base lg:text-xl">{item.title}</p>
         <p className="text-sm text-gray-600 mt-1">{item.source}</p>
       </div>
     </div>

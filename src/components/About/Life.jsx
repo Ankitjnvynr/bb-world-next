@@ -37,7 +37,7 @@ const Life = () => {
       <section className="w-full bg-gradient-to-r from-[#2C3546] to-[#2C3546] shadow-xl shadow-slate-400 p-8 pt-4 flex flex-col xl:flex-row items-center justify-around  overflow-hidden">
         <div className="max-w-4xl text-white text-center xl:text-left px-4 p-2">
           {/* <p className="text-sm tracking-widest mb-2">Life at BigByte World</p> */}
-          <h1 className="xl:text-[75px] xs:text-4xl sm:text-5xl font-semibold leading-tight font-serif">
+          <h1 className="xl:text-[50px] xs:text-4xl sm:text-5xl font-bold leading-tight font-serif">
            Life at <span className='font-serif italic'>BigByte</span> <span className='text-yellow-500 italic'>World</span>
           </h1>
         </div>

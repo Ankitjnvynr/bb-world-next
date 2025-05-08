@@ -56,8 +56,8 @@ const  Data = () => {
   return (
     <>
     <div className='mt-10 '>
-        <p className='text-3xl font-bold text-[#0a243a] bg-[#c6e2ed] px-8 py-1 mx-' >Give your global business visibility via eCommerce</p>
-        <p className='text-lg mt-4 font-medium px-8 '>The Big Byte Innovations Pvt Ltd (BIPL) is a prominent ecommerce development company offering reliable services that shape your business ideas to excel potential of success. We ensure full-fledged e-commerce solutions that make your business two-way communication. We build interactive websites that persuade potential customers’ active engagement.</p>
+        <p className='text-3xl font-medium text-[#0a243a] bg-[#c6e2ed] px-8 py-1 mx-' >Give your global business visibility via eCommerce</p>
+        <p className='text-lg mt-4 font-base px-8 '>The Big Byte Innovations Pvt Ltd (BIPL) is a prominent ecommerce development company offering reliable services that shape your business ideas to excel potential of success. We ensure full-fledged e-commerce solutions that make your business two-way communication. We build interactive websites that persuade potential customers’ active engagement.</p>
     </div>
     <div className="text-start md:text-center lg:text-start mt-4 pl-8">
            <a href="contact-us"> <button className="bg-blue-950 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-800 transition-all duration-300">
@@ -66,8 +66,8 @@ const  Data = () => {
             </a>
           </div>
     <div className='mt-14 '>
-        <p className='text-3xl font-bold text-[#0a243a] px-8 bg-[#c6e2ed] mx-' >Simplifying interaction between customers and your business</p>
-        <p className='text-lg mt-4 font-medium px-8'>BIPL follows an entirely different approach to building scalable, modern and secure e-commerce websites for the business. We implement innovative strategies to deliver customised eCommerce websites.</p>
+        <p className='text-3xl font-medium text-[#0a243a] px-8 bg-[#c6e2ed] mx-' >Simplifying interaction between customers and your business</p>
+        <p className='text-lg mt-4 font-base px-8'>BIPL follows an entirely different approach to building scalable, modern and secure e-commerce websites for the business. We implement innovative strategies to deliver customised eCommerce websites.</p>
     </div>
     <div className="relative flex flex-col items-center w-full max-w-6xl mx-auto py-10 ">
       {timelineData.map((item, index) => (

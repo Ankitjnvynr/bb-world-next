@@ -108,9 +108,9 @@ const Services = () => {
   return (
     <>
      <div className='mt-0 '>
-        <p className='text-5xl font-bold text-[#0a243a] text-center mt-6  px-8 py-1 mx-5 xs:px-1' >
+        <p className='text-5xl font-medium text-[#0a243a] text-center mt-6  px-8 py-1 mx-5 xs:px-1' >
         Our Web Development Services</p>
-        <p className="text-xl xl:px-36 font-semibold text-gray-700 px-20 py-2 xs:px-8">We offer comprehensive end to end Solutions for your busniess Projects. Our Accurately Programmed Web Applications Fit Perfectly To Your Business Requirements.
+        <p className="text-xl xl:px-36 font-base text-gray-700 px-20 py-2 xs:px-8">We offer comprehensive end to end Solutions for your busniess Projects. Our Accurately Programmed Web Applications Fit Perfectly To Your Business Requirements.
         </p>
            </div>
     <div className=" flex xl:items-center  justify-center bg-white ">
@@ -127,7 +127,7 @@ const Services = () => {
             </div> */}
 
             {/* Title & Description */}
-            <h3 className="text-sm font-bold uppercase tracking-wide mb-2">{step.title}</h3>
+            <h3 className="text-sm font-base uppercase tracking-wide mb-2">{step.title}</h3>
             <p className="text-xs text-gray-600 mb-3">{step.description}</p>
 
             {/* Icon */}

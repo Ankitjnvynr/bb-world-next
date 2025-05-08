@@ -25,7 +25,7 @@ const About = () => {
     <div className="px-4 md:px-10 lg:px-20 py-10 bg-white space-y-14">
       {sections.map((section, idx) => (
         <div key={idx} className="space-y-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 text-start md:text-center lg:text-start">
+          <h2 className="text-3xl md:text-4xl font-medium text-blue-900 text-start md:text-center lg:text-start">
             {section.title}
           </h2>
           {section.points.map((text, i) => (

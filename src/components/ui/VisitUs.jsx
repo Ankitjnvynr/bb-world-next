@@ -11,7 +11,7 @@ const VisitUs = () => {
             <p className="text-gray-500 uppercase tracking-wider text-sm font-semibold">
               Visit Us
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+            <h2 className=" md:text-4xl text-base  text-gray-900 leading-snug">
               Located in the heart of Kurukshetra,<br className="hidden md:block" /> 
               where innovation and excellence converge!
             </h2>

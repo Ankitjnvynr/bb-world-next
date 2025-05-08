@@ -5,7 +5,7 @@ import { AnimatedTestimonials } from "@/components/ui/AnimatedTestimonials";
 import { BackgroundGradient } from "@/components/ui/BackgroundGradient";
 import ContactUs from "@/components/ui/ContactUs";
 import { FeaturesSectionDemo } from "@/components/ui/FeaturesSectionDemo";
-import Hero1 from "@/components/ui/Hero1";
+import Hero1 from "@/components/ui/Hero2";
 import { HoverEffect } from "@/components/ui/HoverEffect";
 import HowWeWork from "@/components/ui/HowWeWork";
 import { items } from "@/components/ui/items";

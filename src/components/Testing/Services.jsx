@@ -16,7 +16,7 @@ const Services = () => {
     <section className="w-full bg-gradient-to-b from-[#f0f8ff] to-white py-16 px-6 md:px-12 lg:px-24">
       {/* Heading */}
       <div className="max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0a243a] mb-4">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-[#0a243a] mb-4">
           Testing Services We Provide
         </h2>
         <p className="text-lg md:text-xl text-gray-600">
@@ -33,7 +33,7 @@ const Services = () => {
               key={index}
               className="p-6 bg-white border border-blue-100 rounded-2xl shadow-md hover:shadow-lg transition-transform hover:scale-[1.03] duration-300"
             >
-              <p className="text-lg font-semibold text-blue-900">{service}</p>
+              <p className="text-lg font-base text-blue-900">{service}</p>
             </div>
           ))}
         </div>

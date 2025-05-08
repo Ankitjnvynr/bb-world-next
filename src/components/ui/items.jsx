@@ -18,7 +18,7 @@ export const items=[
     },
     {
         title:"eCommerce Development",
-        description:"The Big Byte Innovations Pvt Ltd (BIPL) is a prominent ecommerce development company offering reliable services that shape your business ideas to excel potential of success. We ensure full-fledged e-commerce solutions that make your business two-way communication. ",
+        description:"The BigByte Innovations Pvt Ltd (BIPL) is a prominent ecommerce development company offering reliable services that shape your business ideas to excel potential of success. We ensure full-fledged e-commerce solutions that make your business two-way communication. ",
         link:"/ecommerce-development",
     },
     {
