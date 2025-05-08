@@ -1,14 +1,10 @@
-import {
-    Input,
-    Checkbox,
-    Button,
-    Typography,
-  } from "@material-tailwind/react";
-  import { Link } from "react-router-dom";
-  
-  
-  export function LogIN() {
-    return (
+"use client"
+import { Button, Checkbox, Input, Typography } from '@material-tailwind/react';
+import Link from 'next/link';
+import React from 'react'
+
+const LogIN = () => {
+  return (
       <section className=" flex overflow-x-hidden gap-20  bg-[url('/images/Login/bg-image.jpg')] bg-cover h-screen   xl:bg-[url('/images/Login/bg-image.jpg')] xl:bg-[100vw] lg:bg-[] ">
         <div className="w-full tab:w-[90rem] mt-7 md:w-[70rem] md:h-[50rem] md:mt-40  xs:mt-10 lg:w-[25rem] xl:w-[35rem] xl:mt-8 lg:mt-4 ">
           <div className="text-center">
@@ -103,7 +99,7 @@ import {
             </div>
             <Typography variant="paragraph" className="text-center text-blue-gray-500 font-medium mt-4 md:text-xl tab:text-3xl tab:mt-8 xl:text-xl lg:text-lg">
               Not registered?
-              <Link to="/sign-up" className="text-gray-900 ml-1 tab:text-3xl xl:text-xl lg:text-lg">Create account</Link>
+              <Link href="/sign-up" className="text-gray-900 ml-1 tab:text-3xl xl:text-xl lg:text-lg">Create account</Link>
             </Typography>
           </form>
   
@@ -117,7 +113,6 @@ import {
   
       </section>
     );
-  }
-  
-  export default LogIN;
-  
+}
+
+export default LogIN

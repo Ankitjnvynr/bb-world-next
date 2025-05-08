@@ -1,5 +1,5 @@
-import LogIN from '@/components/LogIn/LogIN'
-import React from 'react'
+import LogIN from "@/components/LogIn/LogIN";
+
 
 export default function page() {
   return (
